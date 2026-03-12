@@ -2,7 +2,7 @@ let carros_estacionados = 0;
 const limitemaximo = 8;
     console.log("---iniciando verificação---");
 for(let vaga=1;vaga<=10;vaga++){
-    if(vaga===4 || vaga===7){
+    if(vaga===4 || vaga===7 || vaga===3){
         console.log(`vaga ${vaga}: [INTERDITADA]- Pulando `);
         continue;}
         carros_estacionados++;
